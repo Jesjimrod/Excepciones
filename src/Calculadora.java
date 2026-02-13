@@ -42,6 +42,7 @@ public class Calculadora {
             String operacion = sc.nextLine();
 
             int res = calculo(num1, num2, operacion);
+            System.out.println("Resultado: " + res);
 
         } catch (InputMismatchException e) {
             System.out.println("Error. Motivo: " + e.getMessage());
