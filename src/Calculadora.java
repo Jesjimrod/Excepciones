@@ -48,8 +48,6 @@ public class Calculadora {
             System.out.println("Error1. Motivo: " + e);
         } catch (ArithmeticException e) {
             System.out.println("Error2. Motivo: " + e.getMessage());
-        } catch (IllegalArgumentException e) {
-            System.out.println("Error3. Motivo: " + e.getMessage());
         } finally {
             System.out.println("Fin del programa");
             sc.close();
